@@ -1,0 +1,167 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\variants\\piranha_esp-32"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\EEPROM\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "FastBot.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\FastBot-main\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "HTTPClient.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\HTTPClient\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFiClientSecure\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "HTTPUpdate.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\HTTPUpdate\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "Update.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\Update\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\DHT-sensor-library-master"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\build\\sketch\\Program_Smart_Sadovod.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\EEPROM\\src\\EEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\FastBot-main\\src\\utils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\HTTPClient\\src\\HTTPClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFiClientSecure\\src\\WiFiClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFiClientSecure\\src\\esp_crt_bundle.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\WiFiClientSecure\\src\\ssl_client.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\HTTPUpdate\\src\\HTTPUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\Update\\src\\HttpsOTAUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.3\\libraries\\Update\\src\\Updater.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\DHT-sensor-library-master\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\DHT-sensor-library-master\\DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\DHT-sensor-library-master\\DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

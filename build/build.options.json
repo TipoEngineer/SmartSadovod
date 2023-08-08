@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:piranha_esp-32:PartitionScheme=default,FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
+  "hardwareFolders": "C:\\Users\\Robokvantum 01\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\Robokvantum 01\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod"
+}
