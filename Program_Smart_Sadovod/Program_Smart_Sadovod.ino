@@ -1,7 +1,7 @@
 #include <EEPROM.h>
 
 
-
+// Домашнее подключение
 #define WIFI_SSID "R&P Home"
 #define WIFI_PASS "PoRnOfILmS"
 #define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
