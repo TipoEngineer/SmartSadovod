@@ -2,7 +2,7 @@
 
 
 
-
+// Гаражное подключение
 //#define WIFI_SSID "9"
 //#define WIFI_PASS "12312312"                                                                                                                                                                                                                                                                                                                     
 //#define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
