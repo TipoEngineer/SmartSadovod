@@ -3,27 +3,22 @@
 
 
 
-
-//#define WIFI_SSID "9"
-//#define WIFI_PASS "12312312"                                                                                                                                                                                                                                                                                                                     
-//#define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
-
-
-//#define WIFI_SSID "Pixel"                                                                                                                                                   
-//#define WIFI_PASS "123456789"
-//#define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
+// Домашнее подключение
 
 
 
 
+// Гаражное подключение
+// #define WIFI_SSID "9"
+// #define WIFI_PASS "12312312"                                                                                                                                                                                                                                                                                                                     
+// #define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
 
-
-# 21 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino" 2
+# 16 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino" 2
 FastBot bot("6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw");
 
-# 24 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino" 2
+# 19 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino" 2
 DHT dht(33, DHT11); // сообщаем на каком порту будет датчик
-# 37 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+# 32 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
 bool res = 0;
 uint32_t startUnix;
 
@@ -162,7 +157,7 @@ void newMsg(FB_msg& msg) {
   if (msg.text == "Перезагрузка") res = 1;
   if (msg.OTA && msg.chatID == "468494936") bot.update();
   if (msg.unix < startUnix) return;
-# 190 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+# 185 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
   // Автоматический режим
 
 
