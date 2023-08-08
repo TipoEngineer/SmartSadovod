@@ -249,7 +249,9 @@ if (shag == 7){
     bot.sendMessage(temp_string_send);
   }
 
-    if (msg.text == "Перезагрузка") res = 1;
+
+// ! Перезагрузка
+  if (msg.text == "Перезагрузка") res = 1;
   if (msg.OTA && msg.chatID == "468494936") bot.update();
   if (msg.unix < startUnix) return;
 }
