@@ -1,0 +1,7 @@
+Ctrl + Shift + P - Запускает утилиту 
+
+Последовательность действий
+1. Проинициализировать и выбрать нужную плату
+
+https://www.codeproject.com/Articles/5150391/Creating-and-Debugging-Arduino-Programs-in-Visual
+https://www.codeproject.com/Articles/5160447/Creating-and-Debugging-Arduino-Programs-in-Visua-2

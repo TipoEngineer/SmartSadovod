@@ -1,0 +1,6 @@
+{
+    "sketch": "Program_Smart_Sadovod\\Program_Smart_Sadovod.ino",
+    "configuration": "PartitionScheme=default,FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
+    "board": "esp32:esp32:piranha_esp-32",
+    "programmer": "esp32:esptool"
+}
