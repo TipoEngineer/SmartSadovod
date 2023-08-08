@@ -140,7 +140,10 @@ void newMsg(FB_msg& msg) {
 
   }
 
-  // Автоматический режим
+
+
+  // ! Меню Автоматического режима
+
   if (msg.text == "Автоматический режим") {
     bot.showMenu("Статус авто \t Перенастроить \n Назад");
   }
@@ -150,10 +153,10 @@ void newMsg(FB_msg& msg) {
   }
 
 
+// * Статус в меню Автоматического режима
   String pump_msg = "MAX " + String(!max_poplovok);
   String lenta_msg = "MIN " + String(!min_poplovok);
   String temper = "T " + String(temp);
-
 
 
 
@@ -164,26 +167,10 @@ void newMsg(FB_msg& msg) {
     // bot.sendMessage("Помпа: " + );
   }
 
-  if (msg.text == "Перезагрузка") res = 1;
-  if (msg.OTA && msg.chatID == "468494936") bot.update();
-  if (msg.unix < startUnix) return;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  // Автоматический режим
-
+  // * АВТОМАТИЧЕСКИЙ РЕЖИМ
 
   if (msg.text == "Перенастроить") {
     msg.text = " "; // Сброс
@@ -237,8 +224,10 @@ if (shag == 7){
   eeprom_save = true;
   }
 
-  
-  
+  // ! Меню Автоматического режима
+
+
+  // ! Работа с EEPROM
 
   if (eeprom_save == true) {
     EEPROM.writeString(10, timer_start_poliv);
@@ -248,6 +237,9 @@ if (shag == 7){
     eeprom_save = false;
   }
 
+  // ! Работа с EEPROM
+
+
 
   if (msg.text == "Статус авто") {
     String poliv_string_send = String (poliv_work);
@@ -256,6 +248,10 @@ if (shag == 7){
     bot.sendMessage(poliv_string_send);
     bot.sendMessage(temp_string_send);
   }
+
+    if (msg.text == "Перезагрузка") res = 1;
+  if (msg.OTA && msg.chatID == "468494936") bot.update();
+  if (msg.unix < startUnix) return;
 }
 
 
