@@ -8,9 +8,9 @@
 //#define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
                                                                                                              
-//#define WIFI_SSID "Pixel"                                                                                                                                                   
-//#define WIFI_PASS "123456789"
-//#define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
+// #define WIFI_SSID "Pixel"                                                                                                                                                   
+// #define WIFI_PASS "123456789"
+// #define BOT_TOKEN "6572535284:AAG4YXp1W6LxuXLuNpXM_9kIUmtMAUZV3xw"
 
 
 #define WIFI_SSID "R&P Home"
