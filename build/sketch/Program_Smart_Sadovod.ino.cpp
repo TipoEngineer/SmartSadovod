@@ -70,7 +70,7 @@ void setup() {
   bot.attach(newMsg);
   pinMode(dat_max, INPUT);
   pinMode(dat_min, INPUT);
-  pinMode(pump, OUTPUT);
+  pinMode(pump_pin, OUTPUT);
   pinMode(open, OUTPUT);
   pinMode(closed, OUTPUT);
   bot.sendMessage("Тестируем Меню");
@@ -112,14 +112,14 @@ void newMsg(FB_msg& msg) {
   }
 
   if (msg.text == "Включить помпу" && pump_sta == 0) {
-    digitalWrite(pump, HIGH);
+    digitalWrite(pump_pin, HIGH);
     pump_sta = true;
 
     bot.sendMessage("Помпа включена");
   }
 
   if (msg.text == "Выключить помпу" && pump_sta == 1) {
-    digitalWrite(pump, LOW);
+    digitalWrite(pump_pin, LOW);
     pump_sta = false;
 
     bot.sendMessage("Помпа Выключена");
@@ -318,7 +318,7 @@ void loop() {
     if (t.timeString() == timer_start_poliv && min_poplovok) {
       Serial.print("Время");
       pump_sta = true;
-      digitalWrite(pump, HIGH);
+      digitalWrite(pump_pin, HIGH);
       tmr1 = millis();
     }
 
@@ -329,7 +329,7 @@ void loop() {
   if (pump_sta == true && millis() - tmr1 >= poliv_work * 1000) {
     tmr1 = millis();
     Serial.println("Полив");
-    digitalWrite(pump, LOW);
+    digitalWrite(pump_pin, LOW);
     pump_sta = false;
   }
 
