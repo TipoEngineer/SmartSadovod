@@ -60,21 +60,9 @@ String temp_String = "69:69:69";
 
 static uint32_t tmr2;
 static uint32_t tmr3;
+static uint32_t tmr4;
 
 
-#line 63 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void setup();
-#line 98 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void newMsg(FB_msg& msg);
-#line 263 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void loop();
-#line 355 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void connectWiFi();
-#line 368 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void trubleshuting();
-#line 401 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
-void temperatuta();
-#line 63 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
 void setup() {
   connectWiFi();
   bot.setChatID("468494936"); //написать свой id
@@ -155,7 +143,10 @@ void newMsg(FB_msg& msg) {
 
   }
 
-  // Автоматический режим
+
+
+  // ! Меню Автоматического режима
+
   if (msg.text == "Автоматический режим") {
     bot.showMenu("Статус авто \t Перенастроить \n Назад");
   }
@@ -165,10 +156,10 @@ void newMsg(FB_msg& msg) {
   }
 
 
+// * Статус в меню Автоматического режима
   String pump_msg = "MAX " + String(!max_poplovok);
   String lenta_msg = "MIN " + String(!min_poplovok);
   String temper = "T " + String(temp);
-
 
 
 
@@ -179,26 +170,10 @@ void newMsg(FB_msg& msg) {
     // bot.sendMessage("Помпа: " + );
   }
 
-  if (msg.text == "Перезагрузка") res = 1;
-  if (msg.OTA && msg.chatID == "468494936") bot.update();
-  if (msg.unix < startUnix) return;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  // Автоматический режим
-
+  // * АВТОМАТИЧЕСКИЙ РЕЖИМ
 
   if (msg.text == "Перенастроить") {
     msg.text = " "; // Сброс
@@ -252,8 +227,10 @@ if (shag == 7){
   eeprom_save = true;
   }
 
-  
-  
+  // ! Меню Автоматического режима
+
+
+  // ! Работа с EEPROM
 
   if (eeprom_save == true) {
     EEPROM.writeString(10, timer_start_poliv);
@@ -263,6 +240,9 @@ if (shag == 7){
     eeprom_save = false;
   }
 
+  // ! Работа с EEPROM
+
+
 
   if (msg.text == "Статус авто") {
     String poliv_string_send = String (poliv_work);
@@ -271,6 +251,12 @@ if (shag == 7){
     bot.sendMessage(poliv_string_send);
     bot.sendMessage(temp_string_send);
   }
+
+
+// ! Перезагрузка
+  if (msg.text == "Перезагрузка") res = 1;
+  if (msg.OTA && msg.chatID == "468494936") bot.update();
+  if (msg.unix < startUnix) return;
 }
 
 

@@ -48,8 +48,19 @@ String temp_String = "69:69:69";
 
 static uint32_t tmr2;
 static uint32_t tmr3;
-
-
+# 63 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void setup();
+# 98 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void newMsg(FB_msg& msg);
+# 263 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void loop();
+# 355 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void connectWiFi();
+# 368 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void trubleshuting();
+# 401 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
+void temperatuta();
+# 63 "C:\\Users\\Robokvantum 01\\YandexDisk\\Universal folder\\Projects\\Git\\SmartSadovod\\Program_Smart_Sadovod\\Program_Smart_Sadovod.ino"
 void setup() {
   connectWiFi();
   bot.setChatID("468494936"); //написать свой id
